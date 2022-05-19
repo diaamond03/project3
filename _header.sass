@@ -1,0 +1,45 @@
+header
+    background: #212529
+    padding: 25px 0
+    position: fixed
+    z-index: 1
+    width: 100%
+    .imgbox
+        width: 180px
+    .menu
+        display: flex
+        justify-content: end
+        a
+            font-size: 20px
+            margin: 0 18px
+            color: #ffffff
+            &:hover
+                color: #ffc800
+    .box
+        display: flex
+        color: #908f90
+        border: 1px solid #908f90
+        border-radius: 4px
+        padding: 10px
+        font-weight: bold
+        display: none
+        .icon
+            margin-left: 5px
+    @media screen and ( max-width: 992px)
+        .menu
+            display: none
+        .box
+            display: block
+            width: 25%
+            display: flex
+            margin-left: 250px
+    @media screen and ( max-width: 722px)
+        .menu
+            display: none
+        .box
+            display: block
+            width: 80px
+            display: flex
+            margin-left: 250px
+
+        
